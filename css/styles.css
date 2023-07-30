@@ -22,7 +22,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     font-size: 16px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     background-color: var(--main-color);
     text-align: left;
 }
@@ -36,16 +36,19 @@ body {
     text-decoration: none;
 }
 
-.header2 {
+.header-sec {
     text-transform: capitalize;
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.111;
+    line-height: 1.11;
     color: var(--accent-navy-color)
+    
 }
 
-.header3 {
+.header-third {
     text-transform: capitalize;
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -54,6 +57,12 @@ body {
 
 button {
     cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+}
+
+address {
+    font-style: normal;
 }
 /* ================ /COMMON STYLES ================*/
 
@@ -65,7 +74,7 @@ button {
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     color: var(--main-accent-color);
 }
 .logotype span{
@@ -80,20 +89,21 @@ button {
 }
 
 .nav-header .list .link {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--accent-navy-color)
 }
-.nav-header .list .link:hover, .nav-header .list .link:active {
+.nav-header .list .link:hover, .nav-header .list .link:focus {
     color: var(--accent-ocean-color);
     text-decoration: underline;
 }
 
 .address-header .list .link {
     color: var(--accent-slate-color);
-    font-style: normal;
 }
 
-.top-header .address-header .link:active {
+.top-header .address-header .link:hover, .top-header .address-header .link:focus {
     color: var(--accent-ocean-color);
     text-decoration: underline;
 }
@@ -109,14 +119,14 @@ button {
     text-transform: capitalize;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.0714;
+    line-height: 1.07;
 }
 .hero button{
     background-color: var(--main-accent-color);
     color: var(--main-color);
 }
 
-.hero button:hover {
+.hero button:hover, .hero button:focus {
     background-color: var(--accent-ocean-color);
 }
 
@@ -128,7 +138,7 @@ button {
     background-color: var(--accent-cornflower-color);
 }
 
-.portfolio .list button:active {
+.portfolio .list button:focus {
     color: var(--main-color);
     background-color: var(--accent-ocean-color);
 }
