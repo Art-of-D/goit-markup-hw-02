@@ -148,6 +148,9 @@ address {
 .our-team{
     background-color: var(--accent-cloud-color);
 }
+.our-team .list .points {
+    background-color: var(--main-color);
+}
 /* ================ / OUR TEAM ================ */
 
 /* ================ FOOTER ================ */
