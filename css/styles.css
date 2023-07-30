@@ -1,0 +1,158 @@
+/* ================ VARIABLES ================*/
+:root{
+    --main-color: #FFFFFF;
+    --main-accent-color: #4D5AE5;
+    --accent-ocean-color: #404BBF;
+    --accent-navy-color: #2E2F42;
+    --accent-slate-color: #434455;
+    --accent-cornflower-color: #E7E9FC;
+    --accent-cloud-color: #F4F4FD;
+    --shadow-color: rgba(0, 0, 0, 0.12);
+    --main-font: "Roboto", sans-serif;
+    --accent-font: "Raleway", sans-serif;
+
+}
+/* ================ / VARIABLES ================*/
+
+/* ================ COMMON STYLES ================*/
+body {
+    font-family: var(--main-font);
+    color: var(--accent-navy-color);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 2%;
+    background-color: var(--main-color);
+    text-align: left;
+}
+
+.list{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header2 {
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.111;
+}
+
+.header3 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+button {
+    cursor: pointer;
+}
+/* ================ /COMMON STYLES ================*/
+
+/* ================ COMPONENTS ================*/
+.logotype {
+    font-family: var(--accent-font);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 3%;
+    color: var(--accent-navy-color);
+}
+.logotype span{
+    color: var(--main-accent-color);
+}
+
+/* ================ /COMPONENTS ================*/
+
+/* ============= PAGE HEADER ============= */
+.top-header{
+    background-color: var(--accent-cornflower-color);
+}
+
+.nav-header .list .link {
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-header .list .link:active {
+    color: var(--accent-ocean-color);
+    text-decoration: underline;
+}
+
+.address-header .list .link {
+    color: var(--accent-slate-color);
+    font-style: normal;
+}
+
+.top-header .address-header .link:active {
+    color: var(--accent-ocean-color);
+    text-decoration: underline;
+}
+/* ============= PAGE HEADER ============= */
+
+/* ================ HERO ================ */
+.hero{
+    background-color: var(--accent-navy-color);
+    color: var(--main-color)
+}
+
+.hero h1 {
+    text-transform: capitalize;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.0714;
+}
+.hero button{
+    background-color: var(--main-accent-color);
+    color: var(--main-color);
+}
+
+.hero button:hover {
+    background-color: var(--accent-ocean-color);
+}
+
+/* ================ / HERO ================ */
+
+/* ================ PORTFOLIO ================ */
+.portfolio .list button {
+    color: var(--main-accent-color);
+    background-color: var(--accent-cornflower-color);
+}
+
+.portfolio .list button:active {
+    color: var(--main-color);
+    background-color: var(--accent-ocean-color);
+    box-shadow: 0 2 2 var(--shadow-color);
+}
+/* ================ / PORTFOLIO ================ */
+
+/* ================ OUR TEAM ================ */
+.our-team{
+    background-color: var(--accent-cloud-color);
+}
+/* ================ / OUR TEAM ================ */
+
+/* ================ FOOTER ================ */
+footer {
+    background-color: var(--accent-navy-color);
+    color:var(--accent-cloud-color);
+}
+
+footer .logotype{
+    color:var(--accent-cloud-color);
+}
+/* ================ / FOOTER ================ */
+
+
+
+
+
+
+
