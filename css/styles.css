@@ -137,6 +137,10 @@ address {
     color: var(--accent-navy-color)
 }
 
+.benefits .paragraph {
+    color: var(--accent-slate-color);
+}
+
 /* ================ / BENEFITS ================ */
 
 /* ================ What are we doing ================ */
@@ -181,9 +185,16 @@ address {
 .our-team .list .points {
     background-color: var(--main-color);
 }
+
+.our-team .paragraph {
+    color: var(--accent-slate-color);
+}
 /* ================ / OUR TEAM ================ */
 
 /* ================ PORTFOLIO ================ */
+.portfolio .paragraph {
+    color: var(--accent-slate-color);
+}
 .portfolio .header-sec {
     text-transform: capitalize;
     text-align: center;
@@ -202,7 +213,7 @@ address {
     letter-spacing: 0.04em;
 }
 
-.portfolio .list .portfolio-button:focus {
+.portfolio .list .portfolio-button:hover, .portfolio .list .portfolio-button:focus {
     color: var(--main-color);
     background-color: var(--accent-ocean-color);
 }
