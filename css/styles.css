@@ -98,6 +98,8 @@ address {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
+    text-align: center;
+    color: var(--main-color);
 }
 .hero .cta{
     background-color: var(--main-accent-color);
@@ -125,7 +127,7 @@ address {
     
 }
 
-.benefits .header-sec {
+.benefits .header-third {
     text-transform: capitalize;
     text-align: center;
     font-size: 20px;
@@ -166,7 +168,7 @@ address {
     
 }
 
-.our-team .header-sec {
+.our-team .header-third {
     text-transform: capitalize;
     text-align: center;
     font-size: 20px;
@@ -192,22 +194,22 @@ address {
     color: var(--accent-navy-color)
 }
 
-.portfolio .list button {
+.portfolio .list .portfolio-button {
     color: var(--main-accent-color);
-    background-color: var(--accent-cornflower-color);
+    background-color: var(--accent-cloud-color);
     text-align: center;
     font-weight: 500;
     letter-spacing: 0.04em;
 }
 
-.portfolio .list button:focus {
+.portfolio .list .portfolio-button:focus {
     color: var(--main-color);
     background-color: var(--accent-ocean-color);
 }
 /* ================ / PORTFOLIO ================ */
 
 /* ================ FOOTER ================ */
-footer {
+footer, p {
     background-color: var(--accent-navy-color);
     color: var(--accent-cloud-color);
 }
