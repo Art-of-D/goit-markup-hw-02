@@ -15,7 +15,7 @@
 /* ================ / VARIABLES ================*/
 
 /* ================ COMMON STYLES ================*/
-body {
+body, h1, h2, h3, button, p {
     font-family: var(--main-font);
     color: var(--accent-slate-color);
     font-style: normal;
@@ -23,8 +23,9 @@ body {
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
-    background-color: var(--main-color);
     text-align: left;
+    background-color: var(--main-color);
+    
 }
 
 .list{
@@ -34,25 +35,6 @@ body {
 
 .link {
     text-decoration: none;
-}
-
-.header-sec {
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    color: var(--accent-navy-color)
-    
-}
-
-.header-third {
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    color: var(--accent-navy-color)
 }
 
 button {
@@ -111,15 +93,16 @@ address {
     color: var(--main-color)
 }
 
-.hero h1 {
+.hero .header-f {
     text-transform: capitalize;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
 }
-.hero button{
+.hero .cta{
     background-color: var(--main-accent-color);
     color: var(--main-color);
+    text-align: center;
     font-weight: 500;
     letter-spacing: 0.04em;
 }
@@ -130,10 +113,89 @@ address {
 
 /* ================ / HERO ================ */
 
+/* ================ BENEFITS ================ */
+.benefits .header-sec {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--accent-navy-color)
+    
+}
+
+.benefits .header-sec {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--accent-navy-color)
+}
+
+/* ================ / BENEFITS ================ */
+
+/* ================ What are we doing ================ */
+.what-we-do .header-sec {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--accent-navy-color)
+    
+}
+/* ================ / What are we doing ================ */
+
+/* ================ OUR TEAM ================ */
+.our-team{
+    background-color: var(--accent-cloud-color);
+}
+
+.our-team .header-sec {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--accent-navy-color)
+    
+}
+
+.our-team .header-sec {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--accent-navy-color)
+}
+
+.our-team .list .points {
+    background-color: var(--main-color);
+}
+/* ================ / OUR TEAM ================ */
+
 /* ================ PORTFOLIO ================ */
+.portfolio .header-sec {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--accent-navy-color)
+}
+
 .portfolio .list button {
     color: var(--main-accent-color);
     background-color: var(--accent-cornflower-color);
+    text-align: center;
     font-weight: 500;
     letter-spacing: 0.04em;
 }
@@ -143,15 +205,6 @@ address {
     background-color: var(--accent-ocean-color);
 }
 /* ================ / PORTFOLIO ================ */
-
-/* ================ OUR TEAM ================ */
-.our-team{
-    background-color: var(--accent-cloud-color);
-}
-.our-team .list .points {
-    background-color: var(--main-color);
-}
-/* ================ / OUR TEAM ================ */
 
 /* ================ FOOTER ================ */
 footer {
